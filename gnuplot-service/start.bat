@@ -1,0 +1,1 @@
+docker run --rm --name gnuplot-service -p 8081:80 gnuplot-service
