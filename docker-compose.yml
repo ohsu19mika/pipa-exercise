@@ -9,7 +9,7 @@ services:
     depends_on:
       - mongodb
       - gnuplot-service
-  mondodb:
+  mongodb:
     container_name: mongodb
     image: mongo
     volumes:
@@ -20,4 +20,4 @@ services:
 volumes:
   db:
     external:
-      name:db
+      name: db
